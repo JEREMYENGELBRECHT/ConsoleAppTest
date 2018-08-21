@@ -1,0 +1,5 @@
+{
+  "ConnectionString": {
+    "DefaultConnection": "User ID=sa;password=Password123;Database=tester;Pooling=true;"
+  }
+}

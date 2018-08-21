@@ -1,0 +1,12 @@
+C:\Users\jeremye\Documents\Visual Studio 2017\ConsoleAppTest\ConsoleAppTest\bin\Debug\netcoreapp2.1\ConsoleAppTest.deps.json
+C:\Users\jeremye\Documents\Visual Studio 2017\ConsoleAppTest\ConsoleAppTest\bin\Debug\netcoreapp2.1\ConsoleAppTest.runtimeconfig.json
+C:\Users\jeremye\Documents\Visual Studio 2017\ConsoleAppTest\ConsoleAppTest\bin\Debug\netcoreapp2.1\ConsoleAppTest.runtimeconfig.dev.json
+C:\Users\jeremye\Documents\Visual Studio 2017\ConsoleAppTest\ConsoleAppTest\bin\Debug\netcoreapp2.1\ConsoleAppTest.dll
+C:\Users\jeremye\Documents\Visual Studio 2017\ConsoleAppTest\ConsoleAppTest\obj\Debug\netcoreapp2.1\ConsoleAppTest.csprojAssemblyReference.cache
+C:\Users\jeremye\Documents\Visual Studio 2017\ConsoleAppTest\ConsoleAppTest\obj\Debug\netcoreapp2.1\ConsoleAppTest.csproj.CoreCompileInputs.cache
+C:\Users\jeremye\Documents\Visual Studio 2017\ConsoleAppTest\ConsoleAppTest\obj\Debug\netcoreapp2.1\ConsoleAppTest.AssemblyInfoInputs.cache
+C:\Users\jeremye\Documents\Visual Studio 2017\ConsoleAppTest\ConsoleAppTest\obj\Debug\netcoreapp2.1\ConsoleAppTest.AssemblyInfo.cs
+C:\Users\jeremye\Documents\Visual Studio 2017\ConsoleAppTest\ConsoleAppTest\bin\Debug\netcoreapp2.1\ConsoleAppTest.pdb
+C:\Users\jeremye\Documents\Visual Studio 2017\ConsoleAppTest\ConsoleAppTest\obj\Debug\netcoreapp2.1\ConsoleAppTest.dll
+C:\Users\jeremye\Documents\Visual Studio 2017\ConsoleAppTest\ConsoleAppTest\obj\Debug\netcoreapp2.1\ConsoleAppTest.pdb
+C:\Users\jeremye\Documents\Visual Studio 2017\ConsoleAppTest\ConsoleAppTest\bin\Debug\netcoreapp2.1\config\settings.json
