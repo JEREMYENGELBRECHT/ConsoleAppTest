@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using ConsoleAppTest.EndPoint;
+using ConsoleAppTest.Interfaces;
 using ConsoleAppTest.persistance;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
+using SimpleInjector;
 
 namespace ConsoleAppTest
 {
@@ -14,6 +17,8 @@ namespace ConsoleAppTest
     {
         private IConfigurationRoot _configuration;
         private string _Connectiostring;
+
+        private List<IServiceEndpoint> _handler;
         public Startup()
         {
             
@@ -42,11 +47,22 @@ namespace ConsoleAppTest
 
         public void LoadEndpoint()
         {
+            var container = new Container();
 
+            container.Register<IServiceEndpoint, ConsoleWebEndpoint>();
 
+            container.Collection.Register<IServiceEndpoint>(new List<Type>
+            {
+                typeof(ConsoleWebEndpoint)
+            });
 
-            var webservice = new ConsoleWebEndpoint();
-            webservice.Start();
+            container.Verify();
+
+            _handler = container.GetAllInstances<IServiceEndpoint>().ToList();
+            _handler.ForEach(x => x.Start());
+            
+            //var webservice = new ConsoleWebEndpoint();
+            //webservice.Start();
         }
 
         public void SeedData()

@@ -10,3 +10,15 @@ C:\Users\jeremye\Documents\Visual Studio 2017\ConsoleAppTest\ConsoleAppTest\bin\
 C:\Users\jeremye\Documents\Visual Studio 2017\ConsoleAppTest\ConsoleAppTest\obj\Debug\netcoreapp2.1\ConsoleAppTest.dll
 C:\Users\jeremye\Documents\Visual Studio 2017\ConsoleAppTest\ConsoleAppTest\obj\Debug\netcoreapp2.1\ConsoleAppTest.pdb
 C:\Users\jeremye\Documents\Visual Studio 2017\ConsoleAppTest\ConsoleAppTest\bin\Debug\netcoreapp2.1\config\settings.json
+E:\myDevelopment\ConsoleAppTest\ConsoleAppTest\bin\Debug\netcoreapp2.1\config\settings.json
+E:\myDevelopment\ConsoleAppTest\ConsoleAppTest\bin\Debug\netcoreapp2.1\ConsoleAppTest.deps.json
+E:\myDevelopment\ConsoleAppTest\ConsoleAppTest\bin\Debug\netcoreapp2.1\ConsoleAppTest.runtimeconfig.json
+E:\myDevelopment\ConsoleAppTest\ConsoleAppTest\bin\Debug\netcoreapp2.1\ConsoleAppTest.runtimeconfig.dev.json
+E:\myDevelopment\ConsoleAppTest\ConsoleAppTest\bin\Debug\netcoreapp2.1\ConsoleAppTest.dll
+E:\myDevelopment\ConsoleAppTest\ConsoleAppTest\bin\Debug\netcoreapp2.1\ConsoleAppTest.pdb
+E:\myDevelopment\ConsoleAppTest\ConsoleAppTest\obj\Debug\netcoreapp2.1\ConsoleAppTest.csprojAssemblyReference.cache
+E:\myDevelopment\ConsoleAppTest\ConsoleAppTest\obj\Debug\netcoreapp2.1\ConsoleAppTest.csproj.CoreCompileInputs.cache
+E:\myDevelopment\ConsoleAppTest\ConsoleAppTest\obj\Debug\netcoreapp2.1\ConsoleAppTest.AssemblyInfoInputs.cache
+E:\myDevelopment\ConsoleAppTest\ConsoleAppTest\obj\Debug\netcoreapp2.1\ConsoleAppTest.AssemblyInfo.cs
+E:\myDevelopment\ConsoleAppTest\ConsoleAppTest\obj\Debug\netcoreapp2.1\ConsoleAppTest.dll
+E:\myDevelopment\ConsoleAppTest\ConsoleAppTest\obj\Debug\netcoreapp2.1\ConsoleAppTest.pdb
