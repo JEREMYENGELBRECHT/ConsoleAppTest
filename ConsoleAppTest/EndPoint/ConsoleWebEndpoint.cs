@@ -25,5 +25,10 @@ namespace ConsoleAppTest.EndPoint
         {
             _host.StopAsync().Wait();
         }
+
+        private void tester()
+        {
+           Console.WriteLine("im here to check ");
+        }
     }
 }

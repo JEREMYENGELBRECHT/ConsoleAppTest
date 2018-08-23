@@ -20,7 +20,8 @@ namespace ConsoleAppTest.persistance
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-               optionsBuilder.UseSqlServer(Connectiostring);
+            optionsBuilder.UseSqlServer(Connectiostring);
         }
+
     }
 }

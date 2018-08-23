@@ -17,11 +17,10 @@ namespace ConsoleAppTest
     {
         private IConfigurationRoot _configuration;
         private string _Connectiostring;
+        private IServiceEndpoint _ServiceEndpoint;
 
-        private List<IServiceEndpoint> _handler;
         public Startup()
         {
-            
         }
 
         public void Initialise()
@@ -29,7 +28,7 @@ namespace ConsoleAppTest
             Console.WriteLine("service started...");
             LoadSettings();
             SeedData();
-            LoadEndpoint();
+            LoadEndpoint(new ConsoleWebEndpoint());
 
         }
 
@@ -37,7 +36,7 @@ namespace ConsoleAppTest
         {
             var configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("config" + Path.AltDirectorySeparatorChar + "settings.json");
+                .AddJsonFile("config" + Path.DirectorySeparatorChar + "settings.json");
             _configuration = configuration.Build();
 
             _Connectiostring = _configuration.GetSection("ConnectionString")["DefaultConnection"];
@@ -45,24 +44,11 @@ namespace ConsoleAppTest
             return _configuration;
         }
 
-        public void LoadEndpoint()
+        public void LoadEndpoint(IServiceEndpoint serviceEndpoint)
         {
-            var container = new Container();
+            _ServiceEndpoint = serviceEndpoint;
+            _ServiceEndpoint.Start();
 
-            container.Register<IServiceEndpoint, ConsoleWebEndpoint>();
-
-            container.Collection.Register<IServiceEndpoint>(new List<Type>
-            {
-                typeof(ConsoleWebEndpoint)
-            });
-
-            container.Verify();
-
-            _handler = container.GetAllInstances<IServiceEndpoint>().ToList();
-            _handler.ForEach(x => x.Start());
-            
-            //var webservice = new ConsoleWebEndpoint();
-            //webservice.Start();
         }
 
         public void SeedData()
