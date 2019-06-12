@@ -11,16 +11,19 @@ namespace ConsoleAppTest.persistance
     {
         public string Connectiostring;
 
-        public DataContext(string connectionstring)
+        public DataContext(DbContextOptions<DataContext> options)
+            : base(options){ }
+
+        public DataContext(string connectiostring)
         {
-            Connectiostring = connectionstring;
+            Connectiostring = connectiostring;
         }
 
         public DbSet<TesterModel> Tester { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(Connectiostring);
+            optionsBuilder.UseSqlServer("User ID = sa; password = Password123; Database = tester; Pooling = true; ");
         }
 
     }

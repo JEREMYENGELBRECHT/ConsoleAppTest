@@ -16,3 +16,9 @@ E:\myDevelopment\ConsoleAppTest\Test\obj\Debug\netcoreapp2.1\Test.AssemblyInfo.c
 E:\myDevelopment\ConsoleAppTest\Test\obj\Debug\netcoreapp2.1\Test.csproj.CopyComplete
 E:\myDevelopment\ConsoleAppTest\Test\obj\Debug\netcoreapp2.1\Test.dll
 E:\myDevelopment\ConsoleAppTest\Test\obj\Debug\netcoreapp2.1\Test.pdb
+D:\myDevelopment\ConsoleAppTest\Test\obj\Debug\netcoreapp2.1\Test.csprojAssemblyReference.cache
+D:\myDevelopment\ConsoleAppTest\Test\obj\Debug\netcoreapp2.1\Test.csproj.CoreCompileInputs.cache
+D:\myDevelopment\ConsoleAppTest\Test\obj\Debug\netcoreapp2.1\Test.AssemblyInfoInputs.cache
+D:\myDevelopment\ConsoleAppTest\Test\obj\Debug\netcoreapp2.1\Test.AssemblyInfo.cs
+D:\myDevelopment\ConsoleAppTest\Test\obj\Debug\netcoreapp2.1\Test.dll
+D:\myDevelopment\ConsoleAppTest\Test\obj\Debug\netcoreapp2.1\Test.pdb

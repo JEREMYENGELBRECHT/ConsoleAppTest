@@ -13,7 +13,7 @@ namespace ConsoleAppTest.EndPoint
         public void Start()
         {
             _host = new WebHostBuilder()
-                .UseUrls("http://*:8000")
+                .UseUrls("http://*:5000")
                 .UseKestrel()
                 .UseStartup<WebService>()
                 .Build();

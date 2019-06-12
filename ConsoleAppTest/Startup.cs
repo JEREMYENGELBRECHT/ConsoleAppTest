@@ -55,7 +55,7 @@ namespace ConsoleAppTest
         {
 
             var datacontext = new DataContext(_Connectiostring);
-            datacontext.Database.Migrate();
+            datacontext.Database.EnsureCreated();
 
         }
 
